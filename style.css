@@ -1,0 +1,208 @@
+html {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(216, 22, 22), black);
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+ background-image: url("images/image-lion-background.png");
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 1.125rem;
+}
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  min-height: 100px;
+  border-bottom: 1px solid lightgrey;
+}
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: rgb(243, 245, 244);
+  margin-top: 20px;
+}
+
+.card-1 {
+  min-height: 250px;
+  width: 30%;
+  background-image: url("images/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-2 {
+  min-height: 250px;
+  width: 30%;
+  background-image: url("images/3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-3 {
+  min-height: 250px;
+  width: 30%;
+  background-image: url("images/2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.herobox1 {
+  flex: 2;
+  padding-right: 10px;
+}
+.herobox2 {
+  flex: 1;
+}
+.herobox2 img {
+  background-size: cover;
+  background-position:center;
+  padding-left: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-top: 10px;
+}
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin: 10px;
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+i {
+  font-size: 100px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.mybutton {
+  background-color: white;
+  color: rgb(243, 127, 116);
+  font-family: "playfair dispaly", serif;
+  padding: 11px 25px;
+}
+
+a.mybutton {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a.mybutton:hover {
+  background-color: rgb(102, 210, 30);
+  transition-duration: 1s;
+  border-radius: 1000px;
+}
+
+nav .navbutton:hover {
+  background-color: rgb(102, 210, 30);
+  transition-duration: 0.3s;
+  border-radius: 1000px;
+}
+.navbutton {
+  margin-left: 30px;
+  padding: 11px 25px;
+  font-family: "playfair dispaly", serif;
+}
+
+nav .navbutton {
+  border: 1px solid white;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.tbox {
+  width: 100%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin: 50px 0;
+}
+
+.navbutton {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.dropdown .navbutton {
+  width: 200px;
+}
+
+nav .navbutton:hover .dropdown {
+  display: block;
+}
+
+.dropdown .navbutton:hover {
+  background-color: rgb(143, 52, 52);
+}
+
+
+input[type=text ], input[type=email ], textarea {
+  padding: 12px 12px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+
+}
